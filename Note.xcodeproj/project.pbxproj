@@ -19,6 +19,7 @@
 		B0721F2F279AFA86001A1211 /* NewNoteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0721F2E279AFA86001A1211 /* NewNoteVC.swift */; };
 		B0721F36279B0CCB001A1211 /* NTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0721F35279B0CCB001A1211 /* NTextView.swift */; };
 		B0721F39279B137D001A1211 /* UITableVIew+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0721F38279B137D001A1211 /* UITableVIew+Ext.swift */; };
+		B0721F3F279B4D5E001A1211 /* NoteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0721F3E279B4D5E001A1211 /* NoteVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		B0721F2E279AFA86001A1211 /* NewNoteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNoteVC.swift; sourceTree = "<group>"; };
 		B0721F35279B0CCB001A1211 /* NTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTextView.swift; sourceTree = "<group>"; };
 		B0721F38279B137D001A1211 /* UITableVIew+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableVIew+Ext.swift"; sourceTree = "<group>"; };
+		B0721F3E279B4D5E001A1211 /* NoteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 			children = (
 				B057EF752799E17D0062040D /* NoteListVC.swift */,
 				B0721F2E279AFA86001A1211 /* NewNoteVC.swift */,
+				B0721F3E279B4D5E001A1211 /* NoteVC.swift */,
 			);
 			path = "Screens ";
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				B0721F2F279AFA86001A1211 /* NewNoteVC.swift in Sources */,
 				B057EF812799E56B0062040D /* NSecondaryLabel.swift in Sources */,
 				B057EF762799E17D0062040D /* NoteListVC.swift in Sources */,
+				B0721F3F279B4D5E001A1211 /* NoteVC.swift in Sources */,
 				B057EF7F2799E3860062040D /* NTitleLabel.swift in Sources */,
 				B057EF662799D8440062040D /* Note.xcdatamodeld in Sources */,
 			);
