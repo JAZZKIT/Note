@@ -10,11 +10,18 @@ import CoreData
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // Disabling automatic transparent navbar in iOS 15
+//        if #available(iOS 15.0, *) {
+//            let navigationBarAppearance = UINavigationBarAppearance()
+//            navigationBarAppearance.configureWithDefaultBackground()
+//            UINavigationBar.appearance().standardAppearance = navigationBarAppearance
+//            UINavigationBar.appearance().compactAppearance = navigationBarAppearance
+//            UINavigationBar.appearance().scrollEdgeAppearance = navigationBarAppearance
+//        }
         return true
     }
 
